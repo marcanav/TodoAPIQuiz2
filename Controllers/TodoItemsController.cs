@@ -25,8 +25,6 @@ namespace TodoAPI.Controllers
                 _context.TodoItems.Add(new TodoItem { Name = "Lab2", IsComplete = true });
                 _context.TodoItems.Add(new TodoItem { Name = "Lab3" });
                 _context.TodoItems.Add(new TodoItem { Name = "Group Project" });
-                
-                //add new todo item for quiz3:
                 _context.TodoItems.Add(new TodoItem { Name = "Quiz3", IsComplete = true });
 
                 _context.SaveChanges();
